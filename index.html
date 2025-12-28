@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary py-3 border-bottom">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="./images/MainLogo.svg" class="img-fluid" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav o mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">صفحه اصلی</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">راهنما</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">خبار</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">استعلام کد رهگیری</a>
+                    </li>
+
+                </ul>
+                <div class="me-auto">
+                    <a href="">
+                        <button class="btn btn-orange px-5 py-2 rounded-3">ورود</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <main class="container-fluid">
+        <section class="bg-heroSection d-flex flex-column gap-3 align-items-center justify-content-center">
+            <p class="h3 text-center text-secondary">
+                سامانه ثبت معاملات املاک و مستغلات کشور
+            </p>
+            <h1 class="text-orange fw-bolder display-2 text-center">
+                سامانه خودنویس
+            </h1>
+            <p class=" text-center text-secondary w-50">
+
+                سامانه خودنویس با ارائه امکان ثبت قرارداد املاک و دریافت کد رهگیری رایگان، تجربه‌ای نوین و آسان را برای
+                طرفین قرارداد و مشاورین املاک رقم زده‌است. همچنین کد رهگیری انواع قراردادهای ثبت‌شده در همین سامانه،
+                قابل استعلام می‌باشد.
+            </p>
+            <div class=" d-flex gap-3">
+                <a href="">
+                    <button class="btn btn-animation px-5 py-2 rounded-3">ورود</button>
+                </a>
+                <a href="">
+                    <button class="btn btn-orange px-5 py-2 rounded-3">ورود</button>
+                </a>
+            </div>
+            <!-- icon arrow down -->
+            <a href="#managment-contract" class="d-flex align-items-center justify-content-center">
+                <svg width="40" class="svg-animation" height="40" viewBox="0 0 40 40" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path opacity="0.2"
+                        d="M36.6673 17.9333C36.6673 17.15 36.034 16.5 35.234 16.5H4.76732C3.96732 16.5 3.33398 17.1333 3.33398 17.9333C3.33398 27.75 10.184 34.6 20.0007 34.6C29.8173 34.6 36.6673 27.7333 36.6673 17.9333Z"
+                        fill="#DD2C00" />
+                    <path
+                        d="M20.7671 26.4999L25.5171 21.7666C26.0004 21.2832 26.0004 20.4832 25.5171 19.9999C25.0337 19.5166 24.2337 19.5166 23.7504 19.9999L21.1504 22.5999V6.6499C21.1504 5.96657 20.5837 5.3999 19.9004 5.3999C19.2171 5.3999 18.6504 5.96657 18.6504 6.6499V22.5999L16.0337 19.9999C15.5504 19.5166 14.7504 19.5166 14.2671 19.9999C14.0171 20.2499 13.9004 20.5666 13.9004 20.8832C13.9004 21.1999 14.0171 21.5166 14.2671 21.7666L19.0171 26.4999C19.5004 26.9999 20.2837 26.9999 20.7671 26.4999Z"
+                        fill="#DD2C00" />
+                </svg>
+
+            </a>
+
+        </section>
+        <!-- section 2 -->
+        <section class=" my-5" id="managment-contract">
+            <div class="d-flex align-items-center  gap-2">
+                <div class="line-title"></div>
+                <div>
+                    <h2 class="fw-bold h5">مدیریت قراردادها و استعلام کد رهگیری</h2>
+                </div>
+            </div>
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 container m-auto my-5">
+
+                <div class="col">
+                    <div class="box-item">
+                        <div class="icon-wrap">
+                            <svg class="icon base" width="81" height="80" viewBox="0 0 57 56" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M42.5 44.0065H40.7266C38.86 44.0065 37.0867 44.7299 35.78 46.0365L31.7899 49.9799C29.9699 51.7765 27.0067 51.7765 25.1867 49.9799L21.1967 46.0365C19.89 44.7299 18.0933 44.0065 16.25 44.0065H14.5C10.6267 44.0065 7.5 40.9033 7.5 37.0766V11.6199C7.5 7.79321 10.6267 4.68994 14.5 4.68994H42.5C46.3733 4.68994 49.5 7.79321 49.5 11.6199V37.0766C49.5 40.88 46.3733 44.0065 42.5 44.0065Z"
+                                    stroke="#424242" stroke-width="3" stroke-miterlimit="10" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                                <path opacity="0.4"
+                                    d="M28.4992 23.3332C31.5018 23.3332 33.9359 20.8991 33.9359 17.8965C33.9359 14.8939 31.5018 12.46 28.4992 12.46C25.4966 12.46 23.0625 14.8939 23.0625 17.8965C23.0625 20.8991 25.4966 23.3332 28.4992 23.3332Z"
+                                    stroke="#424242" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+                                <path opacity="0.4"
+                                    d="M37.8346 36.5401C37.8346 32.3401 33.658 28.9336 28.5013 28.9336C23.3446 28.9336 19.168 32.3401 19.168 36.5401"
+                                    stroke="#424242" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                            <svg class="icon hover" width="81" height="80" viewBox="0 0 81 80" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M0.5 8C0.5 3.58172 4.08172 0 8.5 0H72.5C76.9183 0 80.5 3.58172 80.5 8V72C80.5 76.4183 76.9183 80 72.5 80H8.5C4.08172 80 0.5 76.4183 0.5 72V8Z"
+                                    fill="#EDE7F6" />
+                                <path
+                                    d="M54.5 16.6665H26.5C22.6267 16.6665 19.5 19.7698 19.5 23.5965V49.0532C19.5 52.8798 22.6267 55.9832 26.5 55.9832H28.2733C30.14 55.9832 31.9133 56.7065 33.22 58.0132L37.21 61.9565C39.03 63.7532 41.9933 63.7532 43.8133 61.9565L47.8033 58.0132C49.11 56.7065 50.9067 55.9832 52.75 55.9832H54.5C58.3733 55.9832 61.5 52.8798 61.5 49.0532V23.5965C61.5 19.7698 58.3733 16.6665 54.5 16.6665ZM40.5 25.4165C43.51 25.4165 45.9367 27.8432 45.9367 30.8532C45.9367 33.8632 43.51 36.2898 40.5 36.2898C37.49 36.2898 35.0633 33.8398 35.0633 30.8532C35.0633 27.8432 37.49 25.4165 40.5 25.4165ZM46.7533 47.1398H34.2467C32.3567 47.1398 31.26 45.0398 32.31 43.4765C33.8967 41.1198 36.9767 39.5332 40.5 39.5332C44.0233 39.5332 47.1033 41.1198 48.69 43.4765C49.74 45.0398 48.62 47.1398 46.7533 47.1398Z"
+                                    fill="#673AB7" />
+                            </svg>
+
+                        </div>
+                        <div class="caption-box-item">
+                            <h2 class="text-center fw-bold h4">پنل</h2>
+                            <p class="text-justify text-secondary">در پنل خودنویس، هر دو طرف قرارداد می‌توانند به عنوان
+                                ایجادکننده قرارداد عمل کنند. علاوه بر این، طرفین و شاهدین قرارداد می‌توانند قراردادهای
+                                ایجاد شده را مدیریت نمایند.</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col">
+                    <div class="box-item">
+                        <div class="icon-wrap">
+                            <svg class="icon base" width="81" height="80" viewBox="0 0 57 56" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M42.5 44.0065H40.7266C38.86 44.0065 37.0867 44.7299 35.78 46.0365L31.7899 49.9799C29.9699 51.7765 27.0067 51.7765 25.1867 49.9799L21.1967 46.0365C19.89 44.7299 18.0933 44.0065 16.25 44.0065H14.5C10.6267 44.0065 7.5 40.9033 7.5 37.0766V11.6199C7.5 7.79321 10.6267 4.68994 14.5 4.68994H42.5C46.3733 4.68994 49.5 7.79321 49.5 11.6199V37.0766C49.5 40.88 46.3733 44.0065 42.5 44.0065Z"
+                                    stroke="#424242" stroke-width="3" stroke-miterlimit="10" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                                <path opacity="0.4"
+                                    d="M28.4992 23.3332C31.5018 23.3332 33.9359 20.8991 33.9359 17.8965C33.9359 14.8939 31.5018 12.46 28.4992 12.46C25.4966 12.46 23.0625 14.8939 23.0625 17.8965C23.0625 20.8991 25.4966 23.3332 28.4992 23.3332Z"
+                                    stroke="#424242" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+                                <path opacity="0.4"
+                                    d="M37.8346 36.5401C37.8346 32.3401 33.658 28.9336 28.5013 28.9336C23.3446 28.9336 19.168 32.3401 19.168 36.5401"
+                                    stroke="#424242" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                            <svg class="icon hover" width="81" height="80" viewBox="0 0 81 80" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M0.5 8C0.5 3.58172 4.08172 0 8.5 0H72.5C76.9183 0 80.5 3.58172 80.5 8V72C80.5 76.4183 76.9183 80 72.5 80H8.5C4.08172 80 0.5 76.4183 0.5 72V8Z"
+                                    fill="#EDE7F6" />
+                                <path
+                                    d="M54.5 16.6665H26.5C22.6267 16.6665 19.5 19.7698 19.5 23.5965V49.0532C19.5 52.8798 22.6267 55.9832 26.5 55.9832H28.2733C30.14 55.9832 31.9133 56.7065 33.22 58.0132L37.21 61.9565C39.03 63.7532 41.9933 63.7532 43.8133 61.9565L47.8033 58.0132C49.11 56.7065 50.9067 55.9832 52.75 55.9832H54.5C58.3733 55.9832 61.5 52.8798 61.5 49.0532V23.5965C61.5 19.7698 58.3733 16.6665 54.5 16.6665ZM40.5 25.4165C43.51 25.4165 45.9367 27.8432 45.9367 30.8532C45.9367 33.8632 43.51 36.2898 40.5 36.2898C37.49 36.2898 35.0633 33.8398 35.0633 30.8532C35.0633 27.8432 37.49 25.4165 40.5 25.4165ZM46.7533 47.1398H34.2467C32.3567 47.1398 31.26 45.0398 32.31 43.4765C33.8967 41.1198 36.9767 39.5332 40.5 39.5332C44.0233 39.5332 47.1033 41.1198 48.69 43.4765C49.74 45.0398 48.62 47.1398 46.7533 47.1398Z"
+                                    fill="#673AB7" />
+                            </svg>
+
+                        </div>
+                        <div class="caption-box-item">
+                            <h2 class="text-center fw-bold h4">پنل</h2>
+                            <p class="text-justify text-secondary">در پنل خودنویس، هر دو طرف قرارداد می‌توانند به عنوان
+                                ایجادکننده قرارداد عمل کنند. علاوه بر این، طرفین و شاهدین قرارداد می‌توانند قراردادهای
+                                ایجاد شده را مدیریت نمایند.</p>
+                            <div class="d-flex align-items-center justify-content-around">
+                                <div class="line-dashed"></div>
+                                <button type="button" class="btn btn-purple px-5">ورود به نل گاربری</button>
+                                <div class="line-dashed"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col">
+                    <div class="box-item">
+                        <div class="icon-wrap">
+                            <svg class="icon base" width="81" height="80" viewBox="0 0 57 56" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M42.5 44.0065H40.7266C38.86 44.0065 37.0867 44.7299 35.78 46.0365L31.7899 49.9799C29.9699 51.7765 27.0067 51.7765 25.1867 49.9799L21.1967 46.0365C19.89 44.7299 18.0933 44.0065 16.25 44.0065H14.5C10.6267 44.0065 7.5 40.9033 7.5 37.0766V11.6199C7.5 7.79321 10.6267 4.68994 14.5 4.68994H42.5C46.3733 4.68994 49.5 7.79321 49.5 11.6199V37.0766C49.5 40.88 46.3733 44.0065 42.5 44.0065Z"
+                                    stroke="#424242" stroke-width="3" stroke-miterlimit="10" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                                <path opacity="0.4"
+                                    d="M28.4992 23.3332C31.5018 23.3332 33.9359 20.8991 33.9359 17.8965C33.9359 14.8939 31.5018 12.46 28.4992 12.46C25.4966 12.46 23.0625 14.8939 23.0625 17.8965C23.0625 20.8991 25.4966 23.3332 28.4992 23.3332Z"
+                                    stroke="#424242" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+                                <path opacity="0.4"
+                                    d="M37.8346 36.5401C37.8346 32.3401 33.658 28.9336 28.5013 28.9336C23.3446 28.9336 19.168 32.3401 19.168 36.5401"
+                                    stroke="#424242" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                            <svg class="icon hover" width="81" height="80" viewBox="0 0 81 80" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M0.5 8C0.5 3.58172 4.08172 0 8.5 0H72.5C76.9183 0 80.5 3.58172 80.5 8V72C80.5 76.4183 76.9183 80 72.5 80H8.5C4.08172 80 0.5 76.4183 0.5 72V8Z"
+                                    fill="#EDE7F6" />
+                                <path
+                                    d="M54.5 16.6665H26.5C22.6267 16.6665 19.5 19.7698 19.5 23.5965V49.0532C19.5 52.8798 22.6267 55.9832 26.5 55.9832H28.2733C30.14 55.9832 31.9133 56.7065 33.22 58.0132L37.21 61.9565C39.03 63.7532 41.9933 63.7532 43.8133 61.9565L47.8033 58.0132C49.11 56.7065 50.9067 55.9832 52.75 55.9832H54.5C58.3733 55.9832 61.5 52.8798 61.5 49.0532V23.5965C61.5 19.7698 58.3733 16.6665 54.5 16.6665ZM40.5 25.4165C43.51 25.4165 45.9367 27.8432 45.9367 30.8532C45.9367 33.8632 43.51 36.2898 40.5 36.2898C37.49 36.2898 35.0633 33.8398 35.0633 30.8532C35.0633 27.8432 37.49 25.4165 40.5 25.4165ZM46.7533 47.1398H34.2467C32.3567 47.1398 31.26 45.0398 32.31 43.4765C33.8967 41.1198 36.9767 39.5332 40.5 39.5332C44.0233 39.5332 47.1033 41.1198 48.69 43.4765C49.74 45.0398 48.62 47.1398 46.7533 47.1398Z"
+                                    fill="#673AB7" />
+                            </svg>
+
+                        </div>
+                        <div class="caption-box-item">
+                            <h2 class="text-purple text-center fw-bold h4">پنل</h2>
+                            <p class="text-justify text-secondary">در پنل خودنویس، هر دو طرف قرارداد می‌توانند به عنوان
+                                ایجادکننده قرارداد عمل کنند. علاوه بر این، طرفین و شاهدین قرارداد می‌توانند قراردادهای
+                                ایجاد شده را مدیریت نمایند.</p>
+                            <div class="d-flex align-items-center justify-content-around">
+                                <div class="line-dashed-primary"></div>
+                                <button type="button" class="btn btn-blue px-5">ورود به نل گاربری</button>
+                                <div class="line-dashed-primary"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+        <section class="bg-information p-5">
+            <div class="container m-auto row align-items-center">
+                <div class="col-md-3">
+                    <img src="./images/important-notice-image.svg" alt="" class="img-fluid">
+                </div>
+                <div class="col-md-9">
+                    <div class="d-flex align-items-center my-3 gap-2">
+                        <div class="line-title"></div>
+                        <div>
+                            <h2 class="fw-bold h5">اطلاعیه خودنویس
+                            </h2>
+                        </div>
+                    </div>
+                    <p class="fw-bold">
+                        قابل توجه کلیه کاربران و مشاوران املاک سراسر کشور؛
+                    </p>
+                    <p class="text-justify">
+                        استفاده از سامانه خودنویس، نیازمند نصب هیچگونه نرم افزاری نیست. صرفا با ورود به درگاه سامانه
+                        خودنویس به آدرس khodnevis.mrud.ir میتوانید از امکانات سامانه بهره مند شوید. افرادی که به بهانه
+                        نصب نرم افزار سامانه خودنویس از شما تقاضای وجه میکنند، کلاهبردار هستند و میتوانید آنها را به
+                        مراجع قضایی معرفی نمایید.
+
+                        فرآیند ثبت قرارداد و صدور کد رهگیری در سامانه خودنویس به صورت رایگان انجام می‌شود و هیچ مبلغی از
+                        شما درخواست نخواهد شد، اما حق الزحمه مشاورین املاک و یا کافی نت و ... باید به صورت عرفی پرداخت
+                        شود. لطفا قبل از مراجعه و بازدید از ملک و تایید اسناد آن یا امضای قرارداد و دریافت کد رهگیری،
+                        هیچ گونه وجهی پرداخت نفرمایید. بهتر است برای ایجاد قرارداد از کامپیوتر یا لپ‌تاپ به جای تلفن
+                        همراه استفاده کنید. جهت مشاهده اخبار و آموزش‌های سامانه می‌توانید به کانال این سامانه در
+                        شبکه‌های اجتماعی (بله و ایتا) به آدرس <span class="text-primary">khodnevis_mrud</span> مراجعه
+                        نمایید.
+                    </p>
+                </div>
+
+            </div>
+        </section>
+        <section class="my-5 container m-auto row row-cols-1 row-cols-md-2">
+            <div>
+                <div class="bg-faq rounded-4 d-flex align-items-center justify-content-center">
+                    <p>سوالات متداول</p>
+                </div>
+                <div class="accordion  my-4 d-flex flex-column gap-2" id="accordionExample">
+
+                    <div class="accordion-item border-0">
+                        <h2 class="accordion-header p-1 border rounded-2 border-2">
+                            <button class="accordion-button collapsed p-3 rounded-2 border-2" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false"
+                                aria-controls="collapseTwo">
+                                Accordion Item #2
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <strong>This is the second item’s accordion body.</strong> It is hidden by default,
+                                until the collapse plugin adds the appropriate classes that we use to style each
+                                element. These classes control the overall appearance, as well as the showing and hiding
+                                via CSS transitions. You can modify any of this with custom CSS or overriding our
+                                default variables. It’s also worth noting that just about any HTML can go within the
+                                <code>.accordion-body</code>, though the transition does limit overflow.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item border-0">
+                        <h2 class="accordion-header p-1 rounded-2 border border-2">
+                            <button class="accordion-button collapsed rounded-2 border-2" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false"
+                                aria-controls="collapseThree">
+                                Accordion Item #3
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <strong>This is the third item’s accordion body.</strong> It is hidden by default, until
+                                the collapse plugin adds the appropriate classes that we use to style each element.
+                                These classes control the overall appearance, as well as the showing and hiding via CSS
+                                transitions. You can modify any of this with custom CSS or overriding our default
+                                variables. It’s also worth noting that just about any HTML can go within the
+                                <code>.accordion-body</code>, though the transition does limit overflow.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="bg-faq rounded-4 d-flex align-items-center justify-content-center">
+                    <p>راهنمای کار با سامانه</p>
+                </div>
+                <div id="carouselExample" class="carousel slide my-4">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="./images/guide.webp" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./images/guide.webp" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./images/guide.webp" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <footer class="bg-footer  rounded-5 container m-auto p-0">
+        <div class=" container m-auto p-5">
+
+            <div class="d-flex align-items-center justify-content-center">
+                <div class="w-25">
+                    <img src="./images/MainLogo.svg" class="img-fluid" alt="">
+                </div>
+                <div class="w-75">
+                    <p>
+                        در راستای رصد و نظارت بر بازار مسکن، ثبت کلیه معاملات املاک و مستغلات اعم از خرید، فروش، پیش
+                        خرید،
+                        پیش فروش، رهن و اجاره مسکن، در سامانه خودنویس، أخذ شناسه (کد) رهگیری بدون أخذ هزینه الزامی است.
+                    </p>
+                </div>
+            </div>
+            <div class="row row-cols-1 row-cols-sm-2  my-3">
+                <div class="col-md-3">
+                    <p class="fw-bold">دسترسی سریع</p>
+                    <ul class="list-unstyled m-0 p-0 d-flex flex-column gap-2">
+                        <li><a href="" class="text-decoration-none text-black">متن تستی</a></li>
+                        <li><a href="" class="text-decoration-none text-black">متن تستی</a></li>
+                        <li><a href="" class="text-decoration-none text-black">متن تستی</a></li>
+                        <li><a href="" class="text-decoration-none text-black">متن تستی</a></li>
+                        <li><a href="" class="text-decoration-none text-black">متن تستی</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <p class="fw-bold">دسترسی سریع</p>
+                    <ul class="list-unstyled m-0 p-0 d-flex flex-column gap-2">
+                        <li><a href="" class="text-decoration-none text-black">متن تستی</a></li>
+                        <li><a href="" class="text-decoration-none text-black">متن تستی</a></li>
+                        <li><a href="" class="text-decoration-none text-black">متن تستی</a></li>
+                        <li><a href="" class="text-decoration-none text-black">متن تستی</a></li>
+                        <li><a href="" class="text-decoration-none text-black">متن تستی</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <div>
+
+                        <p class="fw-bold">دسترسی سریع</p>
+                        <p>
+                            شماره تماس:+98987678678
+                        </p>
+                    </div>
+                    <div>
+
+                        <p class="fw-bold">نشانی</p>
+                        <p>
+                            میدان قدس
+                        </p>
+                    </div>
+                    <div class="d-flex align-items-center  gap-2">
+
+                        <p class="fw-bold">شبکه های اجتماعی</p>
+                        <div class="d-flex align-items-center gap-2">
+                            <img src="./images/instagram.svg" alt="">
+                            <img src="./images/instagram.svg" alt="">
+                            <img src="./images/instagram.svg" alt="">
+                            <img src="./images/instagram.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="bg-sec  bg-secondary p-3 d-flex align-items-center justify-content-center text-white rounded-4">
+            <p>
+                تمامی حقوق این سایت برای ابوالفضل طالبی می باشد
+            </p>
+        </div>
+
+    </footer>
+
+
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
